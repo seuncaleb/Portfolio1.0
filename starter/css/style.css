@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/*header*/
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+}
+
+.move {
+ margin: 50px; 
+}
+
+/* header banner*/
+.hero-banner {
+  width: 100%;
+  
+
+}
+
+.banner-img{
+  background: url(../images/banner\ image.png);
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
+  
+}
+
+.banner-img h2{
+color: aqua;
+display: flex;
+justify-content: center;
+width: 100%;
+align-items: center;
+height: 50% ;
+text-transform: capitalize;
+}
+.page-wrapper{
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 120px; 
+}
+
+
+
+.page-section{
+  margin-bottom: 50px;
+  display: flex;
+  
+}
+
+.divider{
+  display: table;
+  width: 10px;
+  background-color: black;
+  margin: 0 25px;
+}
+
+h2 {
+  width: 10%;
+  text-align: end;
+}
+.header-body{
+  width: 100%;
+}
+
+.grid {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2px;
+  row-gap: 2px;
+  grid-template-areas: "project-1 project-1"
+  "project-2 project-3"
+  "project-4  project-5";
+}
+
+.project-1{
+  grid-area: project-1;
+  background: url(../images/02-portfolio-4.jpg);
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+.project-2{
+  grid-area: project-2;
+  background: url(../images/eberhard-grossgasteiger-qOxMznl22Ao-unsplash.jpg);
+  background-size: cover;
+}
+.project-3{
+  grid-area: project-3;
+  background: url(../images/pawel-czerwinski-SJjNHXutJTU-unsplash.jpg);
+  background-size: cover;
+}
+.project-4{
+  grid-area: project-4;
+  background: url(../images/rayyu-maldives-Vggzx3Ly9IQ-unsplash.jpg);
+  background-size: cover;
+}
+.project-5{
+  grid-area: project-5;
+  background: url(../images/02-portfolio-3.jpg);
+  background-size: cover;
+}
+
+.contactlink {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
