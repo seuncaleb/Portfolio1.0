@@ -65,6 +65,8 @@ align-items: center;
 height: 50% ;
 text-transform: capitalize;
 }
+
+/* Body containing about, work and contact*/
 .page-wrapper{
   margin: 25px;
   display: flex;
@@ -80,10 +82,11 @@ text-transform: capitalize;
   
 }
 
+/* Divider between header and text*/
 .divider{
   display: table;
   width: 10px;
-  background-color: black;
+  background-color: aqua;
   margin: 0 25px;
 }
 
@@ -95,6 +98,7 @@ h2 {
   width: 100%;
 }
 
+/* Grid for works*/
 .grid {
   display: grid;
   height: 100vh;
@@ -107,6 +111,7 @@ h2 {
   "project-4  project-5";
 }
 
+/* Grid Images and links*/
 .project-1{
   grid-area: project-1;
   background: url(../images/02-portfolio-4.jpg);
@@ -149,6 +154,7 @@ h2 {
   height: 100%;
 }
 
+/* Styling for cintact section*/
 .contactlink {
   list-style: none;
   display: flex;
@@ -157,10 +163,9 @@ h2 {
   height: 100%;
 }
 
-.titleLink {
-  background-image: url(../images/rayyu-maldives-Vggzx3Ly9IQ-unsplash\ \(1\).jpg);
-  display: inline-block;
-          width: 75px;
-          height: 75px;
-          font-size: 0;
+.fa-brands,
+.fa-solid {
+  color: aqua;
 }
+
+
