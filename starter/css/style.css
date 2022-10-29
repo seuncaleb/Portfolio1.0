@@ -17,6 +17,7 @@ h4,
 h5,
 h6 {
   margin: 0;
+  padding: 0;
   color: #fffffe;
 }
 
@@ -29,6 +30,8 @@ a {
   text-decoration: none;
   color: #fffffe;
   font-weight: bold;
+  padding: 0;
+  margin: 0;
 }
 
 a:hover{
@@ -43,36 +46,25 @@ header{
   padding: 25px;
 }
 
+
+
 .move {
- margin: 50px; 
+ margin-right: 50px; 
 }
 
 /* header banner*/
 .hero-banner {
   width: 100%;
-  
-
 }
 
 .banner-img{
   background: url(../images/Untitled\ design.svg);
-  height: 50vh;
+  height: 70vh;
   background-repeat: no-repeat;
-  background-size:cover;
-  
-  
+  background-size:cover; 
 }
 
-.banner-img h2{
-color: #fffffe;
-position: relative;
-top: 200px;
-left: 700px;
-text-transform: capitalize;
 
-width: 700px;
-text-align: center;
-}
 
 /* Body containing about, work and contact*/
 .page-wrapper{
@@ -81,8 +73,6 @@ text-align: center;
   flex-direction: column;
   padding: 120px; 
 }
-
-
 
 .page-section{
   margin-bottom: 50px;
@@ -99,10 +89,14 @@ text-align: center;
   margin: 0 25px;
 }
 
+/* h2 in page section */
 h2 {
   width: 10%;
   text-align: end;
+  
 }
+
+/*content in page section*/
 .header-body{
   width: 100%;
 }
@@ -145,8 +139,8 @@ h2 {
   background-size: cover;
   display: inline-block;
   width: 100%;
-  height: 100%;
-}
+  height: 100%;}
+  
 .project-4{
   grid-area: project-4;
   background: url(../images/rayyu-maldives-Vggzx3Ly9IQ-unsplash.jpg);
@@ -164,27 +158,49 @@ h2 {
   height: 100%;
 }
 
-/* Styling for cintact section*/
+/* styling text in images */
+.image-text{
+  padding: 25px;
+  background-color: #7f5af0;
+  top: 200px;
+  width: 50%;
+  
+}
+
+.image-text-right{
+  padding: 25px;
+  background-color: #7f5af0;
+  width: 50%;
+  float: right;
+  text-align: right;
+  
+  
+}
+.image-text p{
+  color:#fffffe ;
+}
+
+.image-text-right p{
+  color:#fffffe 
+}
+
+
+
+/* Styling for contact section*/
 .contactlink {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  align-items: center;
   height: 100%;
+  align-items: center;
+  padding: 0;
+  margin: 0;
 }
+
+
 
 .fa-brands,
 .fa-solid {
   color: #7f5af0;
 }
 
-.image-text{
-  padding: 25px;
-  position: relative;
-  background-color: #7f5af0;
-  top: 200px;
-}
-
-.image-text p{
-  color:#fffffe ;
-}
