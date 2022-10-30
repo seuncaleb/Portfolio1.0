@@ -48,29 +48,35 @@ header{
 
 
 header nav ul  li{
-
   float: right;
   list-style: none;
   padding: 25px;
+  
+  
 
 }
 
-
-.move {
- margin-left: 50px; 
+header h1{
+  text-align: center;
+ 
+  
+  
+  
 }
+
+
+
 
 /* header banner*/
 .hero-banner {
   width: 100%;
+ 
 }
 
 .banner-img{
-  background: url(../images/Untitled\ design.svg);
-  height: 70vh;
-  background-repeat: no-repeat;
-  background-size:cover; 
-  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  
 }
 
 
@@ -179,6 +185,7 @@ h2 {
 
 .image-text p{
   color:#fffffe ;
+  text-transform: lowercase;
 }
 
 
@@ -224,7 +231,7 @@ h2 {
     "project-3"
     "project-4"
     "project-5";
-    height:100vh ;
+    height:70vh ;
   }
 
   .page-section{
@@ -233,57 +240,44 @@ h2 {
     flex-direction: column;
     padding: 50px
   
-}
+  }
 
 h2 {
   width: 100%;
   text-align: center;
   padding-bottom: 25px;
-}
+  }
 
 .page-wrapper{
-  margin: 25px;
-  display: flex;
+ 
   flex-direction: column;
   padding: 25px; }
 
-  .image-text-right{
-    padding: 25px;
-    background-color: #7f5af0;
-    width: 50%;
-    float: left;
-    text-align: left;}
-
+ 
     .header-body p{
       text-align: justify;
     }
 
-    header h1{
-      text-align: center;
-      width: 100%;
-    }
+    
 
     header{
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 25px;
+      flex-direction: column;  
     }
     
-    .move {
-     margin-left: 50px; 
-    }
-
-    .hero-banner {
-      width: 480px;
-    }
+    header nav ul  li{
+      float: none;
+      text-align: center;
     
-    .banner-img{
-      background: url(../images/Untitled\ design.svg);
-      height: 70vh;
-      background-repeat:no-repeat;
-      background-size:cover; 
-      margin: 0 auto;
     }
    
-}
+    .contactlink {
+      flex-direction: column ;
+      text-align: center;
+    }
+  }
+
+@media only screen and (max-width: 390px){
+ .contact {
+  margin-top: 25px;}
+ }
