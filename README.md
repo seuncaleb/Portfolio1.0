@@ -18,7 +18,7 @@ This week I built a person porfolio displaying my work so far. In this portfolio
 ## Screnshot 
 
 ## Link to Project
- [Porfolio link] (https://seuncaleb.github.io/Portfolio1.0/)
+ [Porfolio link](https://seuncaleb.github.io/Portfolio1.0/)
 
 ## Image
 Header Image by:
