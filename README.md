@@ -18,11 +18,11 @@ This week I built a person porfolio displaying my work so far. In this portfolio
 ## Screnshot 
 
 ## Link to Project
-(https://seuncaleb.github.io/Portfolio1.0/) [Porfolio link]
+ [Porfolio link] (https://seuncaleb.github.io/Portfolio1.0/)
 
 ## Image
 Header Image by:
-("https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") [Shubham Dhage]
+[Shubham Dhage]("https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText") 
 
 
 
