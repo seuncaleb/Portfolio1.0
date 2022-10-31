@@ -58,6 +58,7 @@ header nav ul  li{
 
 header h1{
   text-align: center;
+  color: #7f5af0;
  
   
   
@@ -76,6 +77,7 @@ header h1{
 .banner-img{
   width: 100%;
   height: auto;
+  max-height: 750px;
   
 }
 
@@ -177,8 +179,7 @@ h2 {
 .image-text{
   padding: 25px;
   background-color: #7f5af0;
-  width: 50%;
- 
+  width: 50%
   
 }
 

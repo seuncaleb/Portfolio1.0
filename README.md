@@ -19,6 +19,9 @@ This week I built a person porfolio displaying my work so far. In this portfolio
 
 ## Link to Project
 
+## Image
+Header Image by:
+[Shubham Dhage]("https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText")
 
 
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
