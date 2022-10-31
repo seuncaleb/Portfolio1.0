@@ -18,19 +18,20 @@ This week I built a person porfolio displaying my work so far. In this portfolio
 ## Screnshot 
 
 ## Link to Project
-<<<<<<< HEAD
-(https://seuncaleb.github.io/Portfolio1.0/) [Porfolio link]
+[ Porfolio link ](https://seuncaleb.github.io/Portfolio1.0/) 
 
 ## Image
 Header Image by:
-(https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) [Shubham Dhage]
-=======
- [ Porfolio link ] ( https://seuncaleb.github.io/Portfolio1.0/ )
+[Shubham Dhage](https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
 
-## Image
-Header Image by:
-[ Shubham Dhage ] ( https://unsplash.com/@theshubhamdhage?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText ) 
->>>>>>> 7e9f61db1abd9cd02e5f62e4787fba4384fa4182
+If you have any questions, please contact me at: 
+ 
+  Github Profile: [ SeunCaleb ]( https://github.com/seuncaleb )  
+
+  Email:  calebibejigba@gmail.com
+
+  LinkedIn: [ Caleb Ibejigba ]( https://www.linkedin.com/in/calebibejigba)
+
 
 
 
